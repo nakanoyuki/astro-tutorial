@@ -1,9 +1,9 @@
 ---
-import Navigation from '../components/Navigation.astro';
-import Footer from '../components/Footer.astro';
-import '../styles/global.css';
+import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
+import "../styles/global.css";
 
-const pageTitle = 'ホームページ';
+const pageTitle = "ホームページ";
 ---
 
 <html lang="ja">
@@ -18,5 +18,8 @@ const pageTitle = 'ホームページ';
     <Navigation />
     <h1>{pageTitle}</h1>
     <Footer />
+    <script>
+      import "../scripts/menu.js";
+    </script>
   </body>
 </html>
